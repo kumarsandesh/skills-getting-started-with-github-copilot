@@ -104,7 +104,6 @@ document.addEventListener("DOMContentLoaded", () => {
       console.error("Error signing up:", error);
     }
   });
-
   // Initialize app
   fetchActivities();
 });
