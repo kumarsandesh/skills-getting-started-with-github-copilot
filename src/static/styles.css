@@ -58,30 +58,37 @@ section h3 {
 }
 
 .activity-card {
-  margin-bottom: 18px;
-  padding: 0;
-  border: none;
-  border-radius: 0;
-  background: none;
-  box-shadow: none;
+  margin-bottom: 24px;
+  padding: 18px 20px 16px 20px;
+  border-radius: 10px;
+  background: linear-gradient(120deg, #f8fafc 80%, #e3eafc 100%);
+  box-shadow: 0 2px 12px rgba(30, 60, 120, 0.07);
+  border: 1px solid #e3eafc;
+  transition: box-shadow 0.2s;
+}
+
+.activity-card:hover {
+  box-shadow: 0 4px 20px rgba(30, 60, 120, 0.13);
+  background: linear-gradient(120deg, #f0f4fa 80%, #dbeafe 100%);
 }
 
 .activity-card h4 {
-  margin-bottom: 6px;
+  margin-bottom: 8px;
   color: #1976d2;
-  font-weight: bold;
-  font-size: 1.08em;
+  font-weight: 700;
+  font-size: 1.18em;
+  letter-spacing: 0.5px;
 }
 
 .activity-card p {
-  margin-bottom: 6px;
+  margin-bottom: 7px;
   color: #222;
   font-size: 1em;
 }
 
 .activity-card strong {
   font-weight: bold;
-  color: #222;
+  color: #1a237e;
 }
 
 .form-group {
@@ -154,25 +161,25 @@ footer {
 }
 
 .participants-section {
-  margin-top: 8px;
-  padding: 0;
-  background: none;
-  border: none;
-  border-radius: 0;
+  margin-top: 10px;
+  padding: 10px 12px 8px 12px;
+  background: #f4f8fd;
+  border-radius: 6px;
+  border: 1px solid #e3eafc;
 }
 
 .participants-section strong {
-  color: #222;
+  color: #1976d2;
   font-size: 1em;
   font-weight: bold;
   display: block;
-  margin-bottom: 2px;
+  margin-bottom: 4px;
 }
 
 .participants-list {
   margin: 0 0 0 18px;
   padding-left: 0;
-  list-style-type: disc; /* Ensure bullets are shown */
+  list-style-type: disc;
   color: #222;
   font-size: 1em;
   text-align: left;
